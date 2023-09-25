@@ -1,0 +1,9 @@
+symfony new guestbook --version=6.2 --php=8.1 --webapp --docker --cloud
+php -v 8.2.4
+
+symfony server:start -d
+symfony open:local
+symfony cloud:deploy
+
+
+symfony console make:controller ConferenceController
